@@ -25,7 +25,7 @@
 #include "std_msgs/String.h"
 #include "sensor_msgs/LaserScan.h"
 #include "geometry_msgs/Twist.h"
-#include "TurtlebotWalker/turtlebot_walker.h"
+#include "turtlebot_walker.h"  // NOLINT
 
 int main(int argc, char **argv) {
   ros::init(argc, argv, "walker");
