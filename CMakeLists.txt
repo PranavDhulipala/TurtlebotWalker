@@ -199,4 +199,5 @@ include
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
-
+add_executable(turtlebot_walker src/turtlebot_walker.cpp src/main.cpp)
+target_link_libraries(turtlebot_walker ${catkin_LIBRARIES})
